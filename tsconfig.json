@@ -9,5 +9,5 @@
       "@my/db/*": ["./packages/db/*"]
     }
   },
-  "extends": "expo/tsconfig.base"
+  "extends": "expo/tsconfig.base",
 }
