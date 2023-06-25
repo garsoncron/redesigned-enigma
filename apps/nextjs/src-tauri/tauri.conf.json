@@ -1,8 +1,8 @@
 {
   "$schema": "../../../node_modules/@tauri-apps/cli/schema.json",
   "build": {
-    "beforeBuildCommand": "yarn build && yarn export",
-    "beforeDevCommand": "yarn build && yarn export && yarn dev",
+    "beforeBuildCommand": "pnpm build && pnpm export",
+    "beforeDevCommand": "pnpm build && pnpm export && pnpm dev",
     "devPath": "http://localhost:3000",
     "distDir": "../out"
   },

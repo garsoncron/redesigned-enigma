@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "expo start -c",
     "clean": "rm -rf .expo .turbo node_modules",
-    "android": "TAMAGUI_TARGET=native yarn expo run:android",
-    "ios": "TAMAGUI_TARGET=native yarn expo run:ios",
-    "web": "TAMAGUI_TARGET=web yarn expo start --web",
+    "android": "pnpm expo run:android",
+    "ios": "pnpm expo run:ios",
+    "web": "pnpm expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
@@ -44,6 +44,10 @@
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@expo/metro-config": "^0.5.2",
+<<<<<<< Updated upstream
+=======
+    "@/babel-plugin": "1.26.0",
+>>>>>>> Stashed changes
     "@types/react-native-dotenv": "^0.2.0",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4",
     "react-native-dotenv": "^3.4.8",

@@ -32,6 +32,28 @@ module.exports = function (api) {
           extensions: ['.js', '.jsx', '.tsx', '.ios.js', '.android.js'],
         },
       ],
+<<<<<<< Updated upstream
+=======
+      // if you want reanimated support
+      // 'react-native-reanimated/plugin',
+      ...(process.env.EAS_BUILD_PLATFORM === 'android'
+        ? []
+        : [
+            [
+              '@/babel-plugin',
+              {
+                components: ['@my/ui', ''],
+                config: './.config.ts',
+              },
+            ],
+          ]),
+      [
+        'transform-inline-environment-variables',
+        {
+          include: '_TARGET',
+        },
+      ],
+>>>>>>> Stashed changes
     ],
   }
 }

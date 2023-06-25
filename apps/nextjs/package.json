@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "yarn with-env next dev",
-    "build": "yarn with-env next build",
+    "dev": "pnpm with-env next dev",
+    "build": "pnpm with-env next build",
     "with-env": "dotenv -e ../../.env --",
     "clean": "rm -rf .next .turbo node_modules",
     "start": "next start",
     "serve": "NODE_ENV=production next start --port 8151",
     "lint": "next lint",
     "export": "next export",
-    "dev:tauri": "yarn tauri dev",
-    "build:tauri": "yarn tauri build"
+    "dev:tauri": "pnpm tauri dev",
+    "build:tauri": "pnpm tauri build"
   },
   "dependencies": {
     "app": "*",
