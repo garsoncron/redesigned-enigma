@@ -1,0 +1,18 @@
+{
+  "version": "0.0.0",
+  "name": "app",
+  "main": "index.ts",
+  "private": true,
+  "sideEffects": [
+    "*.css"
+  ],
+  "dependencies": {
+    "@clerk/nextjs": "^4.6.15",
+    "@my/ui": "*",
+    "@tanstack/react-query": "4.22.0",
+    "@trpc/next": "10.9.0",
+    "@trpc/react-query": "10.9.0",
+    "expo-linking": "3.3.0",
+    "solito": "^4.0.0-alpha.5"
+  }
+}
